@@ -1,5 +1,5 @@
 
-public abstract class Personal {
+public abstract class Personal implements empresa {
 	
 	
 	
@@ -9,7 +9,9 @@ public abstract class Personal {
 	private String correo;
 	private Integer edad;
 	
-	
+	public void trabajar(){
+		System.out.println("Los trabajadores trabajan en la empresa");
+	}
 	
 	public Personal (){
 	}
