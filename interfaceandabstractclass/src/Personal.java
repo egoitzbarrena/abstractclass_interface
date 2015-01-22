@@ -3,11 +3,11 @@ public abstract class Personal implements empresa {
 	
 	
 	
-	protected Integer idpersonal;
-	protected String nombre;
-	protected String apellido;
-	protected String correo;
-	protected Integer edad;
+	private Integer idpersonal;
+	private String nombre;
+	private String apellido;
+	private String correo;
+	private Integer edad;
 	
 	public void trabajar(){
 		System.out.println("Los trabajadores trabajan en la empresa");
